@@ -15,7 +15,7 @@ A professional portfolio created to display my knowledge of building fullstack w
 
 ## Installation
 
-No installation is needed. Simply follow the link to view the application: https://meredith-mcdonald-portfolio.netlify.app/
+No installation is needed. Simply follow the link to view the application: https://meredithmcdonald.netlify.app/
 
 ## Screenshot
 ![portfolio page screenshot](image.png)
