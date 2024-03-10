@@ -80,6 +80,8 @@ a {
     /* Ensure the container takes the full height of the background */
 }
 
+
+
 .resume {
     display: flex;
     flex-direction: column;
@@ -167,8 +169,11 @@ a {
 
 
 .contact {
-    margin: 20px;
+    margin: 20px; 
+    display: flex; 
+    justify-content: center;
 }
+
 
 .contact-input {
     display: block;
