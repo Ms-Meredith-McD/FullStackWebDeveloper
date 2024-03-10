@@ -1,4 +1,6 @@
 import backgroundImage from "../../assets/main-image.jpg";
+import { Link } from 'react-router-dom';
+
 
 export default function Resume() {
   return (
@@ -30,8 +32,8 @@ export default function Resume() {
           <li>Unit Testing</li>
           <li>Exposure to Python</li>
           <div className="text-center">
-          <a href="https://docs.google.com/document/d/14xB9WbJ6C9bBn01DnSAaR3THo53WVNvD/edit?usp=sharing&ouid=110680909082817876115&rtpof=true&sd=true" download="MeredithMcDonaldFullStackWebDeveloperResume.pdf">
-            Download Meredith McDonald's Resume
+          <a as={Link} to="https://docs.google.com/document/d/14xB9WbJ6C9bBn01DnSAaR3THo53WVNvD/edit?usp=sharing&ouid=110680909082817876115&rtpof=true&sd=true" download="MeredithMcDonaldFullStackWebDeveloperResume.pdf">
+          Download Meredith McDonald's Resume
           </a>
         </div>
         </ol>

@@ -54,10 +54,11 @@ a {
     background-image: url(../src/assets/main-image.jpg);
     background-size: cover;
     background-position: center;
-    
+
 }
+
 .background {
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -68,6 +69,7 @@ a {
     flex-direction: column;
     justify-content: flex-start;
 }
+
 .container {
     display: flex;
     flex-direction: column;
@@ -78,11 +80,20 @@ a {
     /* Ensure the container takes the full height of the background */
 }
 
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center items vertically */
+}
+
 .resume ol {
     list-style-type: none;
-    justify-content: space-around; 
+    text-align: center;
+    /* Center the text within the list */
     gap: 1px;
 }
+
 /*images */
 .images {
     position: relative;
@@ -105,9 +116,10 @@ a {
 }
 
 .footer {
-    text-align: center; /* Center the text within the footer */
+    text-align: center;
+    /* Center the text within the footer */
     position: relative;
-    bottom:0;
+    bottom: 0;
     width: 100%;
     background-color: var(--dark);
     color: var(--light);
@@ -115,13 +127,14 @@ a {
 }
 
 .footer h2 {
-    margin-bottom: 10px; /* Add margin to space out the heading from the list */
+    margin-bottom: 10px;
+    /* Add margin to space out the heading from the list */
 }
 
 .footer ol {
     list-style-type: none;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     gap: 10px;
 }
 
@@ -130,13 +143,13 @@ a {
 }
 
 @media screen and (max-width: 992px) {
-.projects {
+    .projects {
         justify-content: flex-end;
     }
 }
 
 @media screen and (max-width: 768px) {
-.col-6 {
+    .col-6 {
         flex: 1 1 100%;
         /* justify-content: center;
         flex-direction: column; */
@@ -145,8 +158,10 @@ a {
 
 @media screen and (max-width: 768px) {
     .footer ol {
-        flex-direction: column; /* Stack the list items vertically on smaller screens */
-        align-items: center; /* Center the list items vertically */
+        flex-direction: column;
+        /* Stack the list items vertically on smaller screens */
+        align-items: center;
+        /* Center the list items vertically */
     }
 }
 
