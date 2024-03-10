@@ -1,0 +1,45 @@
+[
+    {   
+        "title": "Restaurant Management",
+        "deploymentMethod": "heroku",
+        "gitHubName": "Restaurant-Management",
+        "deployedName": "group-1-restaurant-manager-dc017dce6dee",
+        "image": "../gg.png",
+        "link": "https://group-1-restaurant-manager-dc017dce6dee.herokuapp.com/",
+        "repository": "https://github.com/Ms-Meredith-McD/Restaurant-Management"
+    },
+    {
+        "title":"Project Cocktail", "deploymentMethod": "gitHub", "gitHubName": "Project-Cocktail", "deployedName": "Project-Cocktail", "gitHubUser": "ms-meredith-mcd",
+        "image": "../cg.jpg",
+        "link": "https://ms-meredith-mcd.github.io/Project-Cocktail/",
+        "repository": "https://github.com/Ms-Meredith-McD/Project-Cocktail"
+    },
+    {   
+        "title": "PWA Text Editor",
+        "deploymentMethod": "heroku",
+        "gitHubName": "Text-Editor",
+        "deployedName": "meredith-text-editor-17217274354d",
+        "image": "../te.png",
+        "link": "https://meredith-text-editor-17217274354d.herokuapp.com/",
+        "repository": "https://github.com/Ms-Meredith-McD/Text-Editor"
+    },
+    { 
+        "title":"Weather Dashboard", "deploymentMethod": "gitHub", "gitHubName": "WeatherDashboard", "deployedName": "WeatherDashboard", "gitHubUser": "ms-meredith-mcd",
+        "image": "../wd.png",
+        "link": "https://ms-meredith-mcd.github.io/WeatherDashboard",
+        "repository": "https://github.com/Ms-Meredith-McD/WeatherDashboard"
+    },
+    { 
+        "title":"Work Day Scheduler", "deploymentMethod": "gitHub", "gitHubName": "WorkDayScheduler", "deployedName": "WorkDayScheduler", "gitHubUser": "ms-meredith-mcd",
+        "image": "../ws.png",
+        "link": "https://ms-meredith-mcd.github.io/WorkDayScheduler",
+        "repository": "https://github.com/Ms-Meredith-McD/WorkDayScheduler"
+    },
+    
+    { 
+        "title":"Java Script Quiz", "deploymentMethod": "gitHub", "gitHubName": "JavaScriptQuiz", "deployedName": "JavaScriptQuiz", "gitHubUser": "ms-meredith-mcd",
+        "image": "../jq.png",
+        "link": "https://ms-meredith-mcd.github.io/JavaScriptQuiz/",
+        "repository": "https://github.com/Ms-Meredith-McD/JavaScriptQuiz"
+    }
+]

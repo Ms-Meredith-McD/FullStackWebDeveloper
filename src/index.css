@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+:root {
+    --dark: rgb(33, 22, 75);
+    --light: rgb(129, 124, 148);
+    --border-right: black;
+}
+
+body {
+    margin: 0;
+}
+
+/* Main background of the header */
+header {
+    padding-left: 10px;
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+
+/* My name */
+.header-box span {
+    display: inline-block;
+    margin-right: 1px;
+}
+
+/* Navigation box */
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+
+/* Navigation list */
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    padding-top: 30px;
+}
+
+/*Removing underlines and blue from all links*/
+a {
+    color: var(--light);
+    font-size: larger;
+}
+
+.wallpaper {
+    background-image: url(../src/assets/main-image.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.background {
+    flex-wrap:wrap;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 120vh;
+
+    /* Ensure the container takes the full height of the background */
+}
+
+.resume ol {
+    list-style-type: none;
+    justify-content: space-around; 
+    gap: 1px;
+}
+/*images */
+.images {
+    position: relative;
+    margin: 10px;
+}
+
+/* All image labels */
+.image-name {
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    font-weight: bolder;
+    font-size: x-large;
+    background-color: var(--light);
+    color: var(--dark);
+    height: 75px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.footer {
+    text-align: center; /* Center the text within the footer */
+    position: relative;
+    bottom:0;
+    width: 100%;
+    background-color: var(--dark);
+    color: var(--light);
+    padding: 10px 0;
+}
+
+.footer h2 {
+    margin-bottom: 10px; /* Add margin to space out the heading from the list */
+}
+
+.footer ol {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+}
+
+.footer ol li {
+    color: var(--dark);
+}
+
+@media screen and (max-width: 992px) {
+.projects {
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 768px) {
+.col-6 {
+        flex: 1 1 100%;
+        /* justify-content: center;
+        flex-direction: column; */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer ol {
+        flex-direction: column; /* Stack the list items vertically on smaller screens */
+        align-items: center; /* Center the list items vertically */
+    }
+}
+
+
+.contact {
+    margin: 20px;
+}
+
+.contact-input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
