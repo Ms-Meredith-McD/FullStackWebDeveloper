@@ -50,6 +50,10 @@ a {
     font-size: larger;
 }
 
+/* Fix for special characters rendering issue on mobile */
+.card-body {
+    overflow: hidden; /* This helps prevent unwanted characters from appearing on mobile */
+}
 .wallpaper {
     background-image: url(../src/assets/main-image.jpg);
     background-size: cover;
