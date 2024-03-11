@@ -13,12 +13,18 @@ function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (name && email && message) {
-      // Your email sending logic
-      setAlert('success'); // Add this line to set the alert to success
+        emailjs.sendForm('service_mibu5zc', 'contact_form', form.current, 'TkGFJ-Ea-qoji7CUs')
+            .then((result) => {
+                document.getElementById("form").reset()
+                setAlert('success')
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
     } else {
-      setAlert('failure');
+        setAlert('failure')
     }
-  };
+};
 
   const handleChange = (e) => {
     const targetIsEmail = (e.target.id === 'email') ? true : false;
