@@ -14,6 +14,7 @@ function Contact() {
     e.preventDefault();
     if (name && email && message) {
       // Your email sending logic
+      setAlert('success'); // Add this line to set the alert to success
     } else {
       setAlert('failure');
     }
