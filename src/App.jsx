@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import NavTabs from './components/NavTabs';
 import Resume from './components/pages/Resume';
@@ -10,6 +10,13 @@ import '@fortawesome/fontawesome-free/css/all.css';
 
 function App() {
     const [currentPage, setCurrentPage] = useState('About');
+
+    useEffect(() => {
+        const storedPage = localStorage.getItem('currentPage');
+        if (storedPage) {
+            setCurrentPage(storedPage);
+        }
+    }, []);
 
     const renderPage = () => {
         if (currentPage === 'Resume') {
@@ -24,7 +31,10 @@ function App() {
         return <Contact />;
     };
 
-    const handlePageChange = (page) => setCurrentPage(page);
+    const handlePageChange = (page) => {
+        setCurrentPage(page);
+        localStorage.setItem('currentPage', page);
+    };
 
     return (
         <Router>
