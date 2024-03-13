@@ -25,10 +25,10 @@ function App() {
         if (currentPage === 'Portfolio') {
             return <Portfolio />;
         }
-        if (currentPage === 'About') {
-            return <About />;
+        if (currentPage === 'Contact') {
+            return <Contact/>;
         }
-        return <Contact />;
+        return <About />;
     };
 
     const handlePageChange = (page) => {
