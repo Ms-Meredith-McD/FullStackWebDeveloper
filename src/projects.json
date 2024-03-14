@@ -1,4 +1,10 @@
 [
+    { 
+        "title":"JobPilot", "deploymentMethod": "heroku", "gitHubName": "JobPilot", "deployedName": "job-pilot-a6ce9a91751d", "gitHubUser": "ms-meredith-mcd",
+        "image": "../jp.png",
+        "link": "https://job-pilot-a6ce9a91751d.herokuapp.com/",
+        "repository": "https://github.com/Ms-Meredith-McD/JobPilot"
+    },
     {   
         "title": "Restaurant Management",
         "deploymentMethod": "heroku",
@@ -34,12 +40,6 @@
         "image": "../ws.png",
         "link": "https://ms-meredith-mcd.github.io/WorkDayScheduler",
         "repository": "https://github.com/Ms-Meredith-McD/WorkDayScheduler"
-    },
-    
-    { 
-        "title":"Java Script Quiz", "deploymentMethod": "gitHub", "gitHubName": "JavaScriptQuiz", "deployedName": "JavaScriptQuiz", "gitHubUser": "ms-meredith-mcd",
-        "image": "../jq.png",
-        "link": "https://ms-meredith-mcd.github.io/JavaScriptQuiz/",
-        "repository": "https://github.com/Ms-Meredith-McD/JavaScriptQuiz"
     }
+    
 ]
