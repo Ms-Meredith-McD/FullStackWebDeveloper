@@ -26,10 +26,10 @@ export default function Project() {
                     <div className="col" key={project.title}>
     <div className="card h-100">
         {/* Use the project.image directly */}
-        <img src={project.image} className="card-img-top" alt="Project Screenshot" />
-        <h5 className="row m-3"> { project.techstack } </h5>
+        <img src={project.image} className="card-img-top" alt="Project Screenshot" />  
         <div className="card-body" id={project.id}>
             <h5 className="card-title">{project.title}</h5>
+            <h5 className="row m-3"> { project.techstack } </h5>
             <div className="card-body">
                 <a
                     href={generateDeployedURL(
