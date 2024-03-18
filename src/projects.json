@@ -3,7 +3,8 @@
         "title":"JobPilot", "deploymentMethod": "heroku", "gitHubName": "JobPilot", "deployedName": "job-pilot-a6ce9a91751d", "gitHubUser": "ms-meredith-mcd",
         "image": "../jp.png",
         "link": "https://job-pilot-a6ce9a91751d.herokuapp.com/",
-        "repository": "https://github.com/Ms-Meredith-McD/JobPilot"
+        "repository": "https://github.com/Ms-Meredith-McD/JobPilot",
+        "techstack": "HTML, CSS, JavaScript, MERN, REST, MongoDB, Express, React, bcrypt, dotenv, Third Party API"
     },
     {   
         "title": "Restaurant Management",
@@ -12,13 +13,15 @@
         "deployedName": "group-1-restaurant-manager-dc017dce6dee",
         "image": "../gg.png",
         "link": "https://group-1-restaurant-manager-dc017dce6dee.herokuapp.com/",
-        "repository": "https://github.com/Ms-Meredith-McD/Restaurant-Management"
+        "repository": "https://github.com/Ms-Meredith-McD/Restaurant-Management",
+        "techstack": "HTML, CSS, Handlebars, JavaScript, Express, MySQL, Sequelize, dotenv, nodemailer, bcrypt"
     },
     {
         "title":"Project Cocktail", "deploymentMethod": "gitHub", "gitHubName": "Project-Cocktail", "deployedName": "Project-Cocktail", "gitHubUser": "ms-meredith-mcd",
         "image": "../cg.jpg",
         "link": "https://ms-meredith-mcd.github.io/Project-Cocktail/",
-        "repository": "https://github.com/Ms-Meredith-McD/Project-Cocktail"
+        "repository": "https://github.com/Ms-Meredith-McD/Project-Cocktail",
+        "techstack": "HTML, CSS, Bootstrap, JavaScript, API, JS Library"
     },
     {   
         "title": "PWA Text Editor",
@@ -27,19 +30,22 @@
         "deployedName": "meredith-text-editor-17217274354d",
         "image": "../te.png",
         "link": "https://meredith-text-editor-17217274354d.herokuapp.com/",
-        "repository": "https://github.com/Ms-Meredith-McD/Text-Editor"
+        "repository": "https://github.com/Ms-Meredith-McD/Text-Editor",
+        "techstack" : "Node, JavaScript, IndexedDB, HTML"
     },
     { 
         "title":"Weather Dashboard", "deploymentMethod": "gitHub", "gitHubName": "WeatherDashboard", "deployedName": "WeatherDashboard", "gitHubUser": "ms-meredith-mcd",
         "image": "../wd.png",
         "link": "https://ms-meredith-mcd.github.io/WeatherDashboard",
-        "repository": "https://github.com/Ms-Meredith-McD/WeatherDashboard"
+        "repository": "https://github.com/Ms-Meredith-McD/WeatherDashboard",
+        "techstack" : "HTML, CSS, Bootstrap, server-side API, Express"
     },
     { 
         "title":"Work Day Scheduler", "deploymentMethod": "gitHub", "gitHubName": "WorkDayScheduler", "deployedName": "WorkDayScheduler", "gitHubUser": "ms-meredith-mcd",
         "image": "../ws.png",
         "link": "https://ms-meredith-mcd.github.io/WorkDayScheduler",
-        "repository": "https://github.com/Ms-Meredith-McD/WorkDayScheduler"
+        "repository": "https://github.com/Ms-Meredith-McD/WorkDayScheduler",
+        "techstack" : "HTML, CSS, Bootstrap, JQuery, JavaScript, Third Party APIs, DayJS"
     }
     
 ]
