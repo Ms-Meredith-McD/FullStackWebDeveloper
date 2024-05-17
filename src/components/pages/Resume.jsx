@@ -32,7 +32,6 @@ export default function Resume() {
           <li>Git/GitHub</li>
           <li>Shell Scripting</li>
           <li>Unit Testing</li>
-          <li>Exposure to Python</li>
           <div className="text-center">
           <Link to="https://docs.google.com/document/d/14xB9WbJ6C9bBn01DnSAaR3THo53WVNvD/edit?usp=drive_link&ouid=110680909082817876115&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">
             Meredith McDonald's Resume
