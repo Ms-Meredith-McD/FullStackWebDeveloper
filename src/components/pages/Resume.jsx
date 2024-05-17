@@ -16,6 +16,8 @@ export default function Resume() {
           <li>React.js</li>
           <li>MySQL</li>
           <li>MongoDB</li>
+          <li>Python</li>
+          <li>Java</li>
           <li>User Authentication</li>
           <li>MERN Stack</li>
           <li>Node.js</li>
